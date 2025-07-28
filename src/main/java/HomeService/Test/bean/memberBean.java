@@ -1,6 +1,6 @@
 package HomeService.Test.bean;
 
-import com.sun.istack.NotNull;
+import jakarta.validation.constraints.NotNull;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.PastOrPresent;
@@ -35,3 +35,17 @@ public class memberBean {
     Integer status;
     String company;
 }
+
+
+/*{
+        "member_name": "Shuvon",
+        "dob": "1998-12-01",
+        "email": "shuvon@example.com",
+        "mobile": "01712345678",
+        "district": "Dhaka",
+        "entry_date": "2024-06-01",
+        "leave_date": null,
+        "marital_status": 1,
+        "status": 1,
+        "company": "ABC Ltd"
+  }*/
