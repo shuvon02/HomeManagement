@@ -11,7 +11,7 @@ import java.util.Date;
 @Data
 @Entity
 @Table(name = "member_info")
-public class memberBean {
+public class MemberBean {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer oid;
